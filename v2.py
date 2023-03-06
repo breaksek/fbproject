@@ -53,7 +53,7 @@ ses=requests.Session()
 uadarimu, uadia, ngentott, ugent, append = [], [], [], [], []
 princp=[]
 prinok=[]
-sys.stdout.write('\x1b]2; Asepitgans_XC\x07')
+sys.stdout.write('\x1b]2; breaksek_XC\x07')
 
 #--------------[User agent mini]-----------#
 
@@ -371,10 +371,10 @@ ua = random.choice(['Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4A) AppleWebKit/53
 
 def UserAgentPake():
         rr = random.randint
-        uapake = f"Mozilla/5.0 (Linux; Android {str(rr(2,13))}; Asepitgans_Xc Build/EweanEnakBosqu) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(108,1085))}.0.0.0 Safari/537.36"
+        uapake = f"Mozilla/5.0 (Linux; Android {str(rr(2,13))}; breaksek_Xc Build/EweanEnakBosqu) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(108,1085))}.0.0.0 Safari/537.36"
         return uapake
 
-#---------------[User agent Asepitgans]---------------#
+#---------------[ User Agent ]---------------#
 
 def UserAgentNew():
         rr = random.randint
@@ -505,10 +505,10 @@ def menubang():
 	banner()
 	prints(nel(f'{P2}Silahkan pilih menu dulu kontol{P2}',width=80,padding=(0,7),style=f"{color_panel}"))
 	prints(nel(f'{P2}[{color_text}01{P2}]. login scriptnya\n[{color_text}02{P2}]. Get cookie free{P2}',width=80,padding=(0,7),style=f"{color_panel}"))
-	Asep_sok_GantengPisan = input('[+] pilih : ')
-	if Asep_sok_GantengPisan in ['01','1']:
+	breaksek_select = input('[+] pilih : ')
+	if breaksek_select in ['01','1']:
 		login()
-	elif Asep_sok_GantengPisan in ['02','2']:
+	elif breaksek_select in ['02','2']:
 		cookies()
 	else:
 		prints(nel(f'{P2}Pilih yang bener kontol{P2}',width=80,padding=(0,7),style=f"{color_panel}"))
@@ -541,7 +541,7 @@ def clear():
 def back():
 	login()
 	
-#----------[logo banner Asepitgans]---------#
+#----------[ banner ]---------#
 def none():
 	clear()
 def info():
@@ -616,53 +616,53 @@ def menu(my_name,my_id):
 	banner()
 	#try:cek_data = requests.get("http://ip-api.com/json/").json()
 	#except:cek_data = {'-'}
-	#try:Asepitgans_DevXd = cek_data["isp"]
-	#except:Asepitgans_DevXd = {'-'}
-	#try:Asepitgans_DevSu = cek_data["city"]
-	#except:Asepitgans_DevSu = {'-'}
-	print(f"[+] Author : Asepitgans-XC\n[+] Status :{hh} Premium{kk}")
+	#try:breaksek_DevXd = cek_data["isp"]
+	#except:breaksek_DevXd = {'-'}
+	#try:breaksek_DevSu = cek_data["city"]
+	#except:breaksek_DevSu = {'-'}
+	print(f"[+] Author : breaksek\n[+] Status :{hh} Premium{kk}")
 	prints(nel(f'{P2}Login As %s {P2}'%((my_id)),width=80,padding=(0,7),style=f"{color_panel}")) 
 	prints(nel(f"""{P2}[{color_text}01{P2}]. Crack Public          [{color_text}05{P2}]. Cek Hasil
 [{color_text}02{P2}]. Crack Public/Massal   [{color_text}06{P2}]. Cek Tap Yes
 [{color_text}03{P2}]. Crack File            [{color_text}07{P2}]. dump ID\n[{color_text}04{P2}]. Crack gmail           [{color_text}00{P2}]. Exit""",width=80,padding=(0,7),style=f"{color_panel}"));prints(nel(f'{P2}Ketik "{H2}bot{P2}" jika ingin menggunakan bot [{H2} Asepitgans_XC {P2}] {P2}',width=80,padding=(0,7),style=f"{color_panel}")) 
-	Asepitgans_Dev = input('[+] Pilih : ')
-	if Asepitgans_Dev in ['1','01']:
+	breaksek_Dev = input('[+] Pilih : ')
+	if breaksek_Dev in ['1','01']:
 		dump_publik()
-	elif Asepitgans_Dev in ['2','02']:
+	elif breaksek_Dev in ['2','02']:
 		dump_massal()
-	elif Asepitgans_Dev in ['3','03']:
+	elif breaksek_Dev in ['3','03']:
 		crack_file()
-	elif Asepitgans_Dev in ['4','04']:
+	elif breaksek_Dev in ['4','04']:
 		clon_email()
-	elif Asepitgans_Dev in ['5','05']:
+	elif breaksek_Dev in ['5','05']:
 		result()
-	elif Asepitgans_Dev in ['6','06']:
+	elif breaksek_Dev in ['6','06']:
 		prints(nel(f'{P2}Tools Serbaguna Yang Bisa Dipakai [{H2} Asepitgans_XC {P2}]{P2}',width=80,padding=(0,7),style=f"{color_panel}"))
 		prints(nel(f'{P2}[{color_text}01{P2}]. Cek detektor Account V¹\n[{color_text}02{P2}]. Cek detektor Account V²{P2}',width=80,padding=(0,7),style=f"{color_panel}"))
-		AsepPaling_Ganteng_Pisan = input('[+] pilih : ')
-		if AsepPaling_Ganteng_Pisan in ['01','1']:
+		breaksek_select2 = input('[+] pilih : ')
+		if breaksek_select2 in ['01','1']:
 			file_cp()
-		elif AsepPaling_Ganteng_Pisan in ['02','2']:
+		elif breaksek_select2 in ['02','2']:
 			cekdetektor()
 		else:
 			prints(nel(f'{P2}Pilih Yang Bener Lah kontol{P2}',width=80,padding=(0,7),style=f"{color_panel}"))
-	elif Asepitgans_Dev in ['7','07']:
+	elif breaksek_Dev in ['7','07']:
 		Asepitgans_Xc()
-	elif Asepitgans_Dev in ['bot']:
+	elif breaksek_Dev in ['bot']:
 		prints(nel(f'{P2}Tools Serbaguna Yang Bisa Dipakai [{H2} Asepitgans_XC {P2}]{P2}',width=80,padding=(0,7),style=f"{color_panel}"))
 		prints(nel(f'{P2}[{color_text}01{P2}]. Spam sms        [{color_text}02{P2}]. Spam WhatsApp\n[{color_text}03{P2}]. Garap Method    [{color_text}04{P2}]. Pasang_a2f {P2}',width=80,padding=(0,7),style=f"{color_panel}"))
-		Asep_Ganteng_Pisan = input('[+] Pilih : ')
-		if Asep_Ganteng_Pisan in ['1','01']:
+		breaksek_select2 = input('[+] Pilih : ')
+		if breaksek_select2 in ['1','01']:
 			spam_sms()
-		elif Asep_Ganteng_Pisan in ['2','02']:
+		elif breaksek_select2 in ['2','02']:
 			spam_wa()
-		elif Asep_Ganteng_Pisan in ['3','03']:
+		elif breaksek_select2 in ['3','03']:
 			siu()
-		elif Asep_Ganteng_Pisan in ['4','04']:
+		elif breaksek_select2 in ['4','04']:
 			pasang_a2f()
 		else:
 			prints(nel(f'{P2}Pilih Yang Bener Lah kontol{P2}',width=80,padding=(0,7),style=f"{color_panel}")) 
-	elif Asepitgans_Dev in ['0','00']:
+	elif breaksek_Dev in ['0','00']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cok.txt')
 		prints(nel(f'{H2}Successfully Logout+Delete Cookies{P2}',width=80,padding=(0,7),style=f"{color_panel}")) 
