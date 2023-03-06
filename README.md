@@ -1,7 +1,7 @@
 Installed Instruction On Termux :
-$ pkg update && pkg upgrade
-$ pkg install python && pkg install git
-$ git clone https://github.com/breaksek/fbproject
-$ cd fbproject
-$ pip install requests rich stdiomask
-$ python v2.py
+<br>$ pkg update && pkg upgrade
+<br>$ pkg install python && pkg install git
+<br>$ git clone https://github.com/breaksek/fbproject
+<br>$ cd fbproject
+<br>$ pip install requests rich stdiomask
+<br>$ python v2.py
