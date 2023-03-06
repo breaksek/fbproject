@@ -1,4 +1,5 @@
 #-----------------[ IMPORT-MODULE ]-------------------#
+
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.tree import Tree
@@ -22,6 +23,7 @@ from rich.text import Text as tekz
 from rich.progress import track
 
 ###----------[ WARNA PRINT RICH ]---------- ###
+
 M2 = "[#FF0000]" # MERAH
 H2 = "[#00FF00]" # HIJAU
 K2 = "[#FFFF00]" # KUNING
@@ -37,6 +39,7 @@ except:
 	color_panel = "#008080"
 	
 #----------[server data Facebook]-----------#
+
 pretty.install()
 CON=sol()
 usragent = []
@@ -51,7 +54,9 @@ uadarimu, uadia, ngentott, ugent, append = [], [], [], [], []
 princp=[]
 prinok=[]
 sys.stdout.write('\x1b]2; Asepitgans_XC\x07')
+
 #--------------[User agent mini]-----------#
+
 try:
 	prox= requests.get("https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all").text
 	open('.proxy.txt','w').write(prox)
@@ -223,7 +228,9 @@ for xd in range(10000):
 	l='Chrome/109.0.0.0 Safari/537.36 Edg/108.0.1462.76'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
-###----------[ USER AGENT 1 ]----------###
+
+	###----------[ USER AGENT 1 ]----------###
+
 for agenku in range(10000):
 	a='Mozilla/5.0 (Linux; U; Android'
 	b=random.choice(['7.0','8.1.0','2','3','4','5','6','7','8','9','10','11','12'])
@@ -310,6 +317,7 @@ for agenku in range(10000):
 	usragent.append(uakuh)
 
 ###----------[ USER AGENT 2 ]----------###
+
 for agenkuw in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['8.1.0','9','10','11','12'])
@@ -360,12 +368,14 @@ ua = random.choice(['Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4A) AppleWebKit/53
 'Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36'])
 
 #----------[UserAgent Pake]---------#
+
 def UserAgentPake():
         rr = random.randint
         uapake = f"Mozilla/5.0 (Linux; Android {str(rr(2,13))}; Asepitgans_Xc Build/EweanEnakBosqu) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(108,1085))}.0.0.0 Safari/537.36"
         return uapake
 
 #---------------[User agent Asepitgans]---------------#
+
 def UserAgentNew():
         rr = random.randint
         hjash = f"Mozilla/5.0 (Linux; Android {str(rr(1,13))}; Redmi 6A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(78,783))}.0.{str(rr(3904,39043))}.{str(rr(62,623))} Mobile Safari/537.36"
@@ -375,6 +385,7 @@ def UserAgentNew():
         return random.choice([hjash,ahjas,uagg,uagh])
         
 #--------------[USER AGENT KHUSUS API]--------------#
+
 def ugenapi():
 	for y in range(1000):
 		rr = random.randint
