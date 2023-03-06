@@ -1746,7 +1746,7 @@ def getkey():
         else:
         	prints(nel(f'{P2}Lisensi telah keluar dari program{P2}',width=80,padding=(0,7),style=f"{color_panel}"));exit()
     try:
-        confirmkey = requests.get("https://raw.githubusercontent.com/Asepitgasn-Dev/Lisensi/main/Key.json").json()
+        confirmkey = requests.get("https://raw.githubusercontent.com/breaksek/lisensi/main/Key.json").json()
     except requests.exceptions.ConnectionError:
     	prints(nel(f'{P2}Jaringan Internet Kamu Tidak Ada{P2}',width=80,padding=(0,7),style=f"{color_panel}"));exit()
     if confirmkey[files] == key:
