@@ -1741,7 +1741,7 @@ def getkey():
         prints(nel(f'{P2}Note : kalau mau beli ketik "{H2}y{P2}" kalau gak mau ketik "{H2}t{P2}" {P2}',width=80,padding=(0,7),style=f"{color_panel}"))
         yt = input("[+] Beli Lisensi : \033[32m")
         if yt in ["Y","y"]:
-            prints(nel(f'{P2}Key anda : {H2}{crot} {P2}tunggu sebentar akan diarahkan ke WhatsApp\nNote : {M2} Jika anda sudah di konfirmasi silahkan tunggu 5 menit, setelah 5 menit lalu jalankan ulang scriptnya terimakasih.{P2}',width=80,padding=(0,7),style=f"{color_panel}"));time.sleep(3);os.system("xdg-open https://wa.me/+6289530656600?text=Assalamualaikum+bang+Asepitgans_Xc,+aku+mau+beli+scriptnya+tapi+yang+versi+premium.+Ini+lisensinya:%20"+crot+"+konfitmasi+nama+pembeli:%20"+namamu)
+            prints(nel(f'{P2}Key anda : {H2}{crot} {P2}tunggu sebentar akan diarahkan ke WhatsApp\nNote : {M2} Jika anda sudah di konfirmasi silahkan tunggu 5 menit, setelah 5 menit lalu jalankan ulang scriptnya terimakasih.{P2}',width=80,padding=(0,7),style=f"{color_panel}"));time.sleep(3);os.system("xdg-open https://wa.me/+6281331184338?text=Assalamualaikum+bang+breaksek,+aku+mau+beli+scriptnya+tapi+yang+versi+premium.+Ini+lisensinya:%20"+crot+"+konfitmasi+nama+pembeli:%20"+namamu)
             open(".key.txt","w").write(crot+"\n"+namamu);exit()
         else:
         	prints(nel(f'{P2}Lisensi telah keluar dari program{P2}',width=80,padding=(0,7),style=f"{color_panel}"));exit()
